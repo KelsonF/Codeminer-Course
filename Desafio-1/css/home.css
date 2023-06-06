@@ -1,0 +1,72 @@
+:root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-content {  
+    display: flex;
+    border-bottom: 1px solid red;
+    padding: 1%;
+    justify-content: space-between;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-text-content {
+    display: flex;
+    position: relative;
+    margin-top: 25px;
+}
+
+.form {
+    padding: 30px;
+    max-width: 20%;
+    margin-top: 5%;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+}
+
+.password {
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    margin-top: 10px;
+}
+
+button {
+    height: 30px;
+    width: 100%;
+}
+
+input {
+    height: 30px;
+}

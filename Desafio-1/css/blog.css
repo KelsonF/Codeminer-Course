@@ -1,0 +1,45 @@
+:root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-content {
+    display: flex;
+    border: 1px solid red;
+    padding: 1%;
+    justify-content: space-between;
+}
+
+.content {
+    max-width: 60%;
+}
+
+.navbar-text-content {
+    display: flex;
+    position: relative;
+    margin-top: 25px;
+}
+
+.footer-content {
+    background: rgba(35%, 0, 0, 0.5);
+    height: 100%;
+}
