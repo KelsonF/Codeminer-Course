@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: rgb(47, 47, 95);
+    color: aliceblue;
 }
 
 img {
@@ -20,11 +22,16 @@ ul {
 a {
     text-decoration: none;
     color: black;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: aliceblue;
 }
 
 .nav-content {
     display: flex;
-    border: 1px solid red;
+    border-bottom: 1px solid gray;
     padding: 1%;
     justify-content: space-between;
 }
@@ -59,5 +66,16 @@ td {
 }
 
 th {
-    background-color: #f2f2f2;
+    background-color: #58535373;
+}
+
+.top-button {
+    height: 40px;
+    width: 100px;
+
+    font-weight: 500;
+    font-size: small;
+
+    background: rgb(71, 71, 40);
+    color: black;
 }
