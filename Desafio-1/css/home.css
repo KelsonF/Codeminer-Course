@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: rgb(47, 47, 95);
 }
 
 .nav-content {
@@ -36,6 +37,11 @@ ul {
 a {
     text-decoration: none;
     color: black;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: aliceblue;
 }
 
 .navbar-text-content {
@@ -48,16 +54,12 @@ a {
     padding: 30px;
     max-width: 20%;
     margin-top: 5%;
-    border: 1px solid black;
     border-radius: 20px;
+    box-shadow: 1px 1px 5px black;
+    background: aliceblue;
 }
 
-.email {
-    display: flex;
-    flex-direction: column;
-}
-
-.password {
+form>div {
     padding-top: 5px;
     display: flex;
     flex-direction: column;
@@ -71,7 +73,13 @@ button {
     height: 30px;
     width: 100%;
     font-size: large;
+    background: rgb(157, 152, 152);
     font-family: 'Courier New', Courier, monospace;
+    transition: 0.8s;
+}
+
+button:hover {
+    background: aliceblue;
 }
 
 input {
