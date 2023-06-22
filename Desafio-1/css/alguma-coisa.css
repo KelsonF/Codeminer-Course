@@ -1,0 +1,98 @@
+:root {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     background: rgb(47, 47, 95);
+     color: aliceblue;
+}
+
+/* Header styling pattern */
+.nav-content {
+     display: flex;
+     border-bottom: 1px solid gray;
+     padding: 1%;
+     justify-content: space-between;
+}
+
+.navbar-text-content {
+     display: flex;
+     position: relative;
+     margin-top: 25px;
+}
+
+img {
+     width: 100px;
+     height: 100px;
+     border-radius: 50%;
+}
+
+ul {
+     display: flex;
+     flex-direction: row;
+     gap: 2rem;
+     list-style: none;
+}
+
+a {
+     text-decoration: none;
+     color: black;
+     transition: 0.5s;
+}
+
+a:hover {
+     color: aliceblue;
+}
+
+/* */
+main {
+     height: calc(100vh - 140px);
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+
+/* Box styling */
+.box {
+     border-radius: 2rem;
+     box-shadow: 1px 1px 2px black;
+     background: white;
+     color: black;
+     
+     min-height: 40%;
+     width: 40%;
+     padding: 2%;
+
+     flex-direction: column;
+}
+
+.box-content {
+     height: 100%;
+
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-end;
+}
+
+.main-content {
+     display: flex;
+     justify-content: center;
+}
+
+#statefull-number{
+     height: 100px;
+     font-size: 60px;
+     font-weight: 400;
+}
+
+.buttons-display {
+     gap: 10px;
+     display: flex;
+     justify-content:center ;
+}
+
+button {
+     width: 100px;
+     height: 50px;
+}
+/* main content styling pattern */
