@@ -1,0 +1,36 @@
+:root {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+.container {
+     width: 100%;
+     height: 100%;
+}
+
+.main-content {
+     position: fixed;
+     left: 50%;
+     top: 50%;
+     translate: -50% -50%;
+}
+
+.button-wrapper{
+     display: flex;
+     justify-content: center;
+}
+
+.button-wrapper > button {
+     height: 40px;
+     width: 150px;
+     transition: 0.5s;
+}
+
+.button-wrapper > button:hover {
+     background: rgb(121, 193, 199);
+}
+
+.lamp>img{
+     height: 800px;
+}
